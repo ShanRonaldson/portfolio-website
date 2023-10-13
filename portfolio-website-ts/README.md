@@ -23,6 +23,7 @@ src/
     │   └── _reset.scss
     └── components
 7. After the SCSS file structure is set up, I then do the basic component setup. I always have a header and footer, so I will create components for those, and will create other components as necessary.
+8. For this project I will not be creating a database, so I created a folder in which I added all the relevant information which I want to add to my portfolio site, including personal information and work experience. All the data is public knowledge, and is the same or similar to my LinkedIn profile and GitHub.
 
 
 ## Styles
