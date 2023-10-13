@@ -9,7 +9,8 @@ When creating a new React project these are the basic steps that I start with.
 2. I then create the React app using Create React App. For this project I opted to use TypeScript, as I have been working mostly in TypeScript. `npx create-react-app my-app --template typescript`
 3. I then added Prettier `npm i --save-dev --save-exact prettier` and added the `.prettier` and `.prettierignore` files.
 4. There are many files which I have no need for in this project, and can always add later. I remove these (including test files, css files and report vials). I also like to start with a clean slate in the `App.tsx` so i tend to remove everything there.
-5. I add SASS/SCSS as I prefer to work with SCSS rather than CSS or styled components using `npm i sass` and set up the SCSS file structure as below. I follow the basic idea of the 7-1 file structure, but in smaller project I often do not need all the 7 folders, so I begin with only the folders I know I will need and add the others if necessary. I always have a `_reset.scss` file, as I want all my pages to be the same throughout. I also like to set up my typography so that all the HTML tags are the same, and also create the basic media query settings in one place.
+5. I always like to start with choosing a color scheme, and creating a favicon using [Favicon.io](https://favicon.io/). I tend to use [Color Hunt](https://colorhunt.co/) for color palette ideas, and start with the palette and add other colors if necessary or adapt the palette colors to be accessible.
+6. I add SASS/SCSS as I prefer to work with SCSS rather than CSS or styled components using `npm i sass` and set up the SCSS file structure as below. I follow the basic idea of the 7-1 file structure, but in smaller project I often do not need all the 7 folders, so I begin with only the folders I know I will need and add the others if necessary. I always have a `_reset.scss` file, as I want all my pages to be the same throughout. I also like to set up my typography so that all the HTML tags are the same, and also create the basic media query settings in one place.
 src/
 └── styles/
     ├── main.scss
@@ -21,7 +22,7 @@ src/
     ├── base/
     │   └── _reset.scss
     └── components
-6. 
+7. After the SCSS file structure is set up, I then do the basic component setup. I always have a header and footer, so I will create components for those, and will create other components as necessary.
 
 
 ## Styles
