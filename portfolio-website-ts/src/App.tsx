@@ -10,7 +10,6 @@ import { ProjectsSection } from "./sections/Projects";
 function App() {
   const sections = [
     { label: "Hello", link: "landing" },
-    { label: "About Me", link: "about" },
     { label: "My Education", link: "education" },
     { label: "My Projects", link: "projects" },
   ];
@@ -21,7 +20,6 @@ function App() {
 
       <main>
         <LandingSection heading="" id="landing"></LandingSection>
-        <AboutSection heading="About Me" id="about"></AboutSection>
         <EducationSection
           heading="My Education"
           id="education"

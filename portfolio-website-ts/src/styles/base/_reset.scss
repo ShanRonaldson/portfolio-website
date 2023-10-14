@@ -1,9 +1,15 @@
+@use "../abstracts/colors" as *;
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
 }
 
 a,
@@ -34,8 +40,8 @@ ul {
 
   main {
     flex: 1 0 auto;
-    padding: auto;
-    margin: 1em;
+    margin: 0 1em 1em;
+    background-color: $background;
   }
 
   footer,
