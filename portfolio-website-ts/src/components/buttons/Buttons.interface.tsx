@@ -1,10 +1,13 @@
-export interface ButtonProps {
+interface BaseProps {
   text: string;
   ariaText?: string;
-  classType: "primary" | "warn" | "accept";
   disabled?: boolean;
 }
 
-export interface LinkProps extends ButtonProps {
+export interface ButtonProps extends BaseProps {
+  classType: "primary" | "warn" | "accept";
+}
+
+export interface LinkProps extends BaseProps {
   link: string;
 }

@@ -1,0 +1,29 @@
+.edu-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 28rem;
+  align-items: start;
+  justify-items: start;
+  gap: 1rem;
+  margin: 1rem;
+
+  &.small {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .edu-block-content-wrapper {
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+
+    border: $primary 10px solid;
+    border-radius: 10px;
+
+
+  }
+}
+
+.skills-list-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 20rem;
+}

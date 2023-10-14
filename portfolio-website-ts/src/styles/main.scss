@@ -1,5 +1,7 @@
 /* Base */
 @import "base/reset";
+@import "base/footer";
+@import "base/header";
 
 /* Abstracts */
 @import "abstracts/colors";
@@ -8,3 +10,4 @@
 @import "abstracts/variables";
 
 /* Components */
+@import "components/education";
